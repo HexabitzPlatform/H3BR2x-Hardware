@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6690,6 +6690,7 @@ Source: www.kingbright.com .. DA56-11SRWA.pdf</description>
 <text x="243.1962" y="5.7422" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="182.7442" y="4.5992" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
 <text x="254.635" y="142.24" size="1.778" layer="95">BOOT</text>
+<text x="34.925" y="199.39" size="1.778" layer="102">VDD = 3.3 Volts</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="246.38" y="117.475" smashed="yes" rot="R90">
