@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2022-12-20T14:08:58Z",
+        "CreationDate": "2024-02-13T08:35:52Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,9 +13,9 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "H3BR20"
+            "ProjectId": "H3BR2"
         },
-        "Owner": "  <>",
+        "Owner": "Ibrahim Zaeiter <zeater18@gmail.com>",
         "Size": {
             "X": 29.999556,
             "Y": 34.640756

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6665,9 +6665,9 @@ Source: www.kingbright.com .. DA56-11SRWA.pdf</description>
 <text x="216.2722" y="14.2766" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="216.45" y="4.9548" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="200.0162" y="19.2042" size="1.9304" layer="100" font="vector">Title</text>
-<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H3BR20</text>
+<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H3BR2</text>
 <text x="177.2578" y="10.7714" size="1.9304" layer="101" font="vector">2-Digit 7-Segment Display</text>
-<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H3BR20_Backend</text>
+<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H3BR2_Backend</text>
 <wire x1="169.46" y1="3.38" x2="169.46" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="7.698" x2="169.46" y2="17.858" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="17.858" x2="169.46" y2="22.43" width="0.1524" layer="205"/>
@@ -9698,9 +9698,9 @@ Source: www.kingbright.com .. DA56-11SRWA.pdf</description>
 <text x="216.2722" y="14.2766" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="216.45" y="4.9548" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="200.0162" y="19.2042" size="1.9304" layer="100" font="vector">Title</text>
-<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H3BR20</text>
+<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H3BR2</text>
 <text x="177.2578" y="10.7714" size="1.9304" layer="101" font="vector">2-Digit 7-Segment Display</text>
-<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H3BR20_Frontend</text>
+<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H3BR2_Frontend</text>
 <wire x1="169.46" y1="3.38" x2="169.46" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="7.698" x2="169.46" y2="17.858" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="17.858" x2="169.46" y2="22.43" width="0.1524" layer="205"/>

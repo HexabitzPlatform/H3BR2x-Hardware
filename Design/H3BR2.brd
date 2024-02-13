@@ -3,7 +3,7 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -188,7 +188,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4" projecturn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4I0QyMDIyMDIyNzUwMTk3Njc4MQ" f3durn="urn:adsk.wipprod:dm.lineage:3_WLJjTsRFqn_TP1RBjaTQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="43fefb0e-d11d-470d-b92f-90f32d1e4f90" lastsyncedrevisionid="43fefb0e-d11d-470d-b92f-90f32d1e4f90" lastboardhashguid="9acdbc4a-1a41-e9bf-2e13-e23adca26ba5" lastpushedtime="2022-12-20T19:15:44Z" linktopcb3d="%12"/>
 <plain>
 <rectangle x1="-3.702178125" y1="3.89851875" x2="-2.950846875" y2="3.91325" layer="21"/>
 <rectangle x1="-3.82003125" y1="3.91325" x2="-2.9361125" y2="3.92798125" layer="21"/>
@@ -580,10 +579,10 @@
 <rectangle x1="-4.0328875" y1="3.946525" x2="-2.91325625" y2="3.96125625" layer="21"/>
 <text x="4.1275" y="28.41625" size="1.9304" layer="21" rot="R320">P1</text>
 <text x="8.89" y="26.3525" size="1.9304" layer="26" rot="MR0">P1</text>
-<text x="14.9225" y="19.20875" size="1.9304" layer="21" rot="R90">*P2</text>
-<text x="13.0175" y="11.27125" size="1.9304" layer="26" rot="MR90">*P2</text>
-<text x="-11.27125" y="19.05" size="1.9304" layer="26" rot="MR270">P5</text>
-<text x="-14.76375" y="15.5575" size="1.9304" layer="21" rot="SR270">P5</text>
+<text x="14.9225" y="19.20875" size="1.9304" layer="21" rot="R90">P2*</text>
+<text x="13.0175" y="11.27125" size="1.9304" layer="26" rot="MR90">P2*</text>
+<text x="-11.27125" y="19.05" size="1.9304" layer="26" rot="MR270">P5*</text>
+<text x="-14.76375" y="15.5575" size="1.9304" layer="21" rot="SR270">P5*</text>
 <text x="-9.8425" y="5.55625" size="1.9304" layer="21" rot="R10">P4</text>
 <text x="-9.04875" y="7.9375" size="1.9304" layer="26" rot="MR180">P4</text>
 <text x="5.3975" y="7.9375" size="1.9304" layer="26" rot="MR180">P3</text>
@@ -593,7 +592,7 @@
 <text x="0.79375" y="6.6675" size="1.9304" layer="21" rot="R180">R</text>
 <text x="0.9525" y="30.00375" size="1.9304" layer="21" rot="R90">C</text>
 <text x="-1.5875" y="30.00375" size="1.9304" layer="21" rot="R90">D</text>
-<text x="-14.76375" y="11.1125" size="1.27" layer="21" rot="R320">3V3</text>
+<text x="-13.49375" y="10.16" size="1.27" layer="21" rot="R290">3V3</text>
 <text x="13.17625" y="24.4475" size="1.27" layer="21" rot="R105">3V3</text>
 <text x="-12.7" y="27.14625" size="1.27" layer="21" rot="R255">3V3</text>
 <text x="1.42875" y="3.175" size="1.27" layer="21" rot="R180">3V3</text>
@@ -2545,8 +2544,9 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="11"/>
 <contactref element="LED1" pad="16"/>
 <contactref element="R5" pad="1"/>
-<wire x1="-5.18" y1="24.92375" x2="-3.89248125" y2="26.21126875" width="0.3048" layer="1"/>
-<wire x1="-3.89248125" y1="26.21126875" x2="-2.48104375" y2="26.21126875" width="0.3048" layer="1"/>
+<wire x1="-5.18" y1="24.92375" x2="-4.38625" y2="24.92375" width="0.3048" layer="1"/>
+<wire x1="-3.09873125" y1="26.21126875" x2="-4.38625" y2="24.92375" width="0.3048" layer="1"/>
+<wire x1="-3.09873125" y1="26.21126875" x2="-2.48104375" y2="26.21126875" width="0.3048" layer="1"/>
 <via x="-2.48104375" y="26.21126875" extent="1-16" drill="0.35"/>
 <wire x1="-2.48104375" y1="26.21126875" x2="-1.64621875" y2="26.21126875" width="0.3048" layer="16"/>
 <wire x1="-1.64621875" y1="26.21126875" x2="-1.31956875" y2="26.53791875" width="0.3048" layer="16"/>
@@ -2617,15 +2617,15 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="18"/>
 <contactref element="LED1" pad="12"/>
 <contactref element="R17" pad="1"/>
-<wire x1="-4.84669375" y1="26.120225" x2="-3.89128125" y2="27.0756375" width="0.3048" layer="1"/>
+<wire x1="-4.21169375" y1="26.120225" x2="-3.73253125" y2="26.5993875" width="0.3048" layer="1"/>
 <wire x1="-10.26" y1="24.92375" x2="-9.063525" y2="26.120225" width="0.3048" layer="1"/>
-<wire x1="-3.89128125" y1="27.0756375" x2="-3.89128125" y2="28.4795625" width="0.3048" layer="1"/>
-<wire x1="-3.89128125" y1="28.4795625" x2="-2.68459375" y2="29.68625" width="0.3048" layer="1"/>
-<wire x1="-9.063525" y1="26.120225" x2="-4.84669375" y2="26.120225" width="0.3048" layer="1"/>
-<wire x1="2.68459375" y1="29.68625" x2="4.2275" y2="28.14334375" width="0.3048" layer="1"/>
-<wire x1="4.2275" y1="28.14334375" x2="4.2275" y2="25.87625" width="0.3048" layer="1"/>
-<wire x1="4.2275" y1="25.87625" x2="5.18" y2="24.92375" width="0.3048" layer="1"/>
-<wire x1="-2.68459375" y1="29.68625" x2="2.68459375" y2="29.68625" width="0.3048" layer="1"/>
+<wire x1="-3.73253125" y1="26.5993875" x2="-3.73253125" y2="28.6383125" width="0.3048" layer="1"/>
+<wire x1="-3.73253125" y1="28.6383125" x2="-2.68459375" y2="29.68625" width="0.3048" layer="1"/>
+<wire x1="-9.063525" y1="26.120225" x2="-4.21169375" y2="26.120225" width="0.3048" layer="1"/>
+<wire x1="2.84334375" y1="29.68625" x2="3.75125" y2="28.77834375" width="0.3048" layer="1"/>
+<wire x1="3.75125" y1="28.77834375" x2="3.75125" y2="26.3525" width="0.3048" layer="1"/>
+<wire x1="3.75125" y1="26.3525" x2="5.18" y2="24.92375" width="0.3048" layer="1"/>
+<wire x1="-2.68459375" y1="29.68625" x2="2.84334375" y2="29.68625" width="0.3048" layer="1"/>
 <wire x1="-11.27125" y1="24.93875" x2="-10.275" y2="24.93875" width="0.3048" layer="1"/>
 <wire x1="-10.275" y1="24.93875" x2="-10.26" y2="24.92375" width="0.3048" layer="1"/>
 </signal>
@@ -2975,11 +2975,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
